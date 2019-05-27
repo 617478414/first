@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.one{border: 1px black solid;
+				width: 250px;
+				height: 180px;
+				margin-left:500px;
+				margin-top: 200px;
+				background:whitesmoke;
+				text-align: center;
+		</style>
+		
+	</head>
+	<body style="width: 100%;padding: 0;margin:0;background-repeat:no-repeat ;background-size: cover;background-image: url(img/mountain.jpg)">
+	<div class="one">
+	  开始登陆我的网站<br/>
+	  <p>账号：<input id="two" type="text" /></p>
+	  <p>密码：<input id="three" type="password" /></p>
+	  <input type="button" id="box3" onclick="denglu()" value="登陆"></input>
+	  <input type="reset"value="取消" />
+	</div>
+	
+	
+	</body>
+	<script type="text/javascript">
+			
+			function denglu(){
+				var box4=document.getElementById("two");
+				var box5=document.getElementById("three");
+				alert(box4.value)
+			}
+		</script>
+	
+	
+</html>
